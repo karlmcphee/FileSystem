@@ -13,7 +13,10 @@
 #include	<semaphore.h>
 #include	<unistd.h>
 
-/* This program simulates a file system that changes its structure based on Linux-like commands such as mkdir read in from a file. */
+/* This program simulates a file system that adds to its structure based on Linux-like commands, such as mkdir, read in from a file.
+
+@author Karl McPhee
+*/
 using namespace std;
 
 int * inodearray;
